@@ -1,0 +1,32 @@
+[
+  {
+    "id": 101,
+    "name": "Darshit",
+    "age": 21,
+    "education": "B.Tech",
+    "height": "6.044 feet",
+    "location": {"city": "Rajkot", "state": "Gujarat"},
+    "skills": ["HTML", "CSS", "MySQL"],
+    "status": "Active"
+  },
+  {
+    "id": 102,
+    "name": "Arjun",
+    "age": 22,
+    "education": "B.Tech",
+    "height": "5.9 feet",
+    "location": {"city": "Ahmedabad", "state": "Gujarat"},
+    "skills": ["JavaScript", "Python"],
+    "status": "Graduated"
+  },
+  {
+    "id": 103,
+    "name": "Priya",
+    "age": 20,
+    "education": "B.E",
+    "height": "5.5 feet",
+    "location": {"city": "Surat", "state": "Gujarat"},
+    "skills": ["React", "PHP", "UI/UX"],
+    "status": "Active"
+  }
+]

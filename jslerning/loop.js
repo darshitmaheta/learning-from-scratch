@@ -30,7 +30,7 @@
 //for (const [key, value] of map) console.log(`${key} :- ${value}`);
 
 
-//                        for in loop
+//                        for-in loop
 //const user = {
   //name : "John",
   //age : 30,
@@ -46,7 +46,7 @@
   //} 
 
 
-  //                             for eachloop
+  //                             for-each loop
 
 //const arr= [1,2,3,4,5,6,7,8,9,10];
 //arr.forEach(function(val) {
@@ -286,10 +286,10 @@
       "description": "A practical guide to writing unit tests and designing testable JavaScript code."
     }
   ];
-  const forme = javascript_books
+  const for_me = javascript_books
     .filter((book) => book.pages > 350)
     .filter((book) => book.categories.includes("Programming") && book.categories.includes("UI"));
-   console.log(forme);
+   console.log(for_me);
 
 
   const totalPages =javascript_books.reduce(function (acc , book){ 
@@ -299,7 +299,7 @@
     return acc + book.pages;
 
     },0);
- const pagesperDay = 15;
+ const pagesPerDay = 15;
 const daysNeeded = Math.ceil(totalPages / pagesPerDay);
 console.log(daysNeeded);
   
