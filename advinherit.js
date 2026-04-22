@@ -9,16 +9,16 @@ let student ={
  attendence: true,
 }
 
-let TAc ={      
+let team ={      
     makeVideo: true,
     isAvailable : true,
 }
-teacher.__proto__ = TAc;      // teacher can access the property of TAc
+teacher.__proto__ = team;      // teacher can access the property of Team
 teacher.__proto__ = student; // teacher can access the property of student
 
 console.log(teacher.makeAssignments);       // student - makeassi..- false
 
 //              new syntax               //
 
-Object.setPrototypeOf(teacher, TAc);
+Object.setPrototypeOf(teacher, team);
 Object.setPrototypeOf(teacher, student);
